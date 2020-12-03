@@ -9,4 +9,6 @@ int main(int argc, char *argv[])
 
 	FILE *source = *fopen(argv[1], "r");
 
+	FILE *source = *fopen(argv[2], "w");
+
 }
